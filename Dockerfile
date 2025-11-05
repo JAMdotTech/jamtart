@@ -7,7 +7,7 @@ RUN rustup default nightly
 WORKDIR /app
 
 # Copy manifests
-COPY Cargo.toml Cargo.lock ./
+COPY Cargo.toml ./
 
 # Copy migrations for sqlx compile-time verification
 COPY migrations ./migrations
