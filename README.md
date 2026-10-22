@@ -60,7 +60,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/paritytech/jamtart.git
+git clone https://github.com/JAMdotTech/jamtart.git
 cd jamtart
 
 # Start backend + PostgreSQL
@@ -114,7 +114,7 @@ cargo run --release --bin tart-dash
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/paritytech/jamtart.git
+git clone https://github.com/JAMdotTech/jamtart.git
 cd jamtart
 
 # 2. Configure production credentials (IMPORTANT!)
@@ -1530,7 +1530,7 @@ RUST_LOG="tart_backend=info,sqlx=warn,tower_http=warn"
 
 ```bash
 # Clone repository
-git clone https://github.com/paritytech/jamtart.git
+git clone https://github.com/JAMdotTech/jamtart.git
 cd jamtart
 
 # Install Rust (if not already installed)
