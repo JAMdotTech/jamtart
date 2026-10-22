@@ -73,8 +73,6 @@ services:
     container_name: tart-backend
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    volumes:
-      - ./target/release/tart-backend:/app/tart-backend
     ports:
       - "9000:9000"  # Telemetry port
       - "8080:8080"  # API port
